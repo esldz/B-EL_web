@@ -1,0 +1,242 @@
+body{
+    font-family:"Montserrat";
+}
+
+#title{
+    background-color: #484444;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Montserrat-Bold";
+    size: 3rem;
+}
+
+h3{
+    font-weight: bold;
+    color: #fff;
+    font-size: 3.5rem;
+    padding: 5%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+
+
+.nav-item{
+    padding: 0 18 px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    border-radius: 50%;
+    
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.features-icon{
+    font-size: 5rem;
+    color: black;
+}
+
+.features-h{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5%;
+}
+
+.features-icon:hover{
+    color: #484444;
+}
+
+.features-information{
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+}
+
+#testimonials{
+    text-align: center;
+    background-color:#484444 ;
+
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color:#484444 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-colum{
+    padding: 3% 2%;
+}
+
+@media (max-width:1020px){
+
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+    }
+}
+
+#cta{
+    background-color: #6D6868;
+    text-align: center;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding:5%;
+}
+
+.footer-icon{
+    font-size: 120%;
+    margin: 1%;
+}
+
+.pricing-name{
+    font-weight:bold ;
+    color: black;
+    font-size: 250%;
+}
+
+.home{
+    position: static;
+    transform: rotate(0);
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+#slider {
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto;
+    box-shadow: 0px 1px 5px #999999;
+}
+#slider img {
+	position:absolute;
+	border:none;
+	display:none;
+}
+
+
+#slider a.imgLink {
+	z-index:2;
+	display:none;position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+
+
+div.mc-caption-bg, div.mc-caption-bg2 {
+	position:absolute;
+	width:100%;
+	height:auto;
+	padding:0;
+	left:0px; 
+	bottom:15px;
+	z-index:3;
+	overflow:hidden;
+	font-size: 0;
+}
+div.mc-caption-bg {
+	background-color:black;
+}
+div.mc-caption {
+	font: bold 14px/20px Arial;
+	color:#EEE;
+	z-index:4;
+	padding:10px 0;
+	text-align:center;
+}
+div.mc-caption a {
+	color:#FB0;
+}
+div.mc-caption a:hover {
+	color:#DA0;
+}
+
+
+div.navBulletsWrapper  {
+	top:320px; left:280px;
+	width:150px;
+	background:none;
+	padding-left:20px;
+	position:relative;
+	z-index:5;
+	cursor:pointer;
+}
+
+
+div.navBulletsWrapper div 
+{
+    width:11px; height:11px;
+    background:transparent url(../resim/bullet.png) no-repeat 0 0;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:11px;
+    _position:relative;
+}
+
+div.navBulletsWrapper div.active {background-position:0 -11px;}
+
+
+#slider 
+{
+	transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
